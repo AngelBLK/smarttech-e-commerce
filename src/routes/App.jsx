@@ -18,7 +18,7 @@ const App = () => {
   const initialState = useInitialState();
   return (
     <AppContext.Provider value={initialState}>
-      <BrowserRouter basename="/smarttech-e-commerce" >
+      <BrowserRouter>
         <Layout>
           <Routes>
           <Route
